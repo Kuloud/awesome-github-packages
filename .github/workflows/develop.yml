@@ -7,13 +7,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: Run a one-line script
-      run: echo Hello, world!
-    - uses: actions/setup-node@v1
-      with:
-        node-version: "12.x"
-    - run: "npm ci"
-    - run: "npm run build"
     - uses: octokit/graphql-action@v2.x
       id: get_latest_release
       env:
