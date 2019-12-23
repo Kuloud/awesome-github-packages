@@ -1,6 +1,9 @@
 # awesome-github-packages
 提供在 GitHub Package Registry 发布内容的优质项目归档。
 
+> Tips：
+> [使用GPR发布和使用Android AAR包](./how_to_use_github_package_registry_for_android_project.md)
+
 # 功能列表
 [ ] 爬虫访问 Github API
 * [ ] 过滤 Star 数 > starNum, Fork 数 > forkNum (暂定starNum = 1000, forkNum = 100) 的项目
